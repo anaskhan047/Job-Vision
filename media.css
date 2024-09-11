@@ -1,0 +1,23 @@
+@media (max-width:767px){
+    
+    .banner-heading{
+        font-size: 28px;
+    }
+    .banner-text{
+        font-size: 15px !important;
+    }
+}
+@media (max-width:576px){
+    .container{
+        width: 100%;
+    }
+    .banner-heading{
+        font-size: 15px;
+        margin-bottom: 5px !important;
+    }
+    .banner-text{
+        font-size: 10px !important;
+        margin-bottom: 5px !important;
+        padding-bottom: 1px !important;
+    }
+}

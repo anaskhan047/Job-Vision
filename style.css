@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans+JP:wght@100..900&family=Playwrite+PE:wght@100..400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+
+
+
+
+
+
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  background: #f4f4f4;
+}
+
+:root {
+  --main-color: #00b074;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: solid; */
+}
+
+a {
+  color: #00b074;
+  text-decoration: none;
+}
+
+.text-primary {
+  color: var(--main-color) !important;
+}
+
+header {
+  background: #f4f4f4;
+}
+
+.job-logo {
+  color: var(--main-color);
+}
+
+.job-nav-link:hover,
+.job-dropbtn:hover,
+.job-dropdown-content a:hover {
+  color: var(--main-color);
+}
+
+.job-btn {
+  background-color: var(--main-color);
+}
+
+.job-btn:hover {
+  background-color: #26bc89;
+  border-color: #1ab882;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: var(--main-color);
+}
+
+.job-dropbtn {
+  border: none;
+}
+
+.job-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.job-dropdown-content {
+  display: none;
+  position: absolute;
+  top: -90px;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  transition: all 0.9s linear;
+}
+
+.job-dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.job-dropdown:hover .job-dropdown-content {
+  display: block;
+  top: 38px;
+}
+
+.job-dropdown:hover .dropbtn {
+  background-color: #00b074;
+}
+
+#banner {
+  background: #f4f4f4;
+}
+
+.banner-img-cap {
+  background: rgba(43, 57, 64, 0.5);
+  /* width: 100% !important; 
+   margin-left: 13px; */
+}
+
+.banner-img-1 {
+  width: 102% !important;
+}
+
+.banner-heading {
+  font-weight: 700;
+}
+
+
+.slick-prev,
+.slick-next {
+  display: none !important;
+}
+
+.main-bg {
+  background: #00b074;
+}
+
+.main-color {
+  color: var(--main-color);
+}
+
+#catagory {
+  background: #f4f4f4;
+}
+
+.cat-item {
+  display: block;
+  box-shadow: 0 0 45px rgba(0, 0, 0, 0.08);
+  border: 1px solid transparent;
+  transition: 0.5s;
+}
+
+.cat-item:hover {
+  border-color: rgba(0, 0, 0, 0.08);
+  box-shadow: none;
+}
+
+.catagory-delay-1 {
+  animation-delay: 0.1s;
+}
+
+.catagory-delay-3 {
+  animation-delay: 0.3s;
+}
+
+.catagory-delay-5 {
+  animation-delay: 0.5s;
+}
+
+.catagory-delay-7 {
+  animation-delay: 0.7s;
+}
+
+#about {
+  background: #f4f4f4;
+}
+
+#clients {
+  background: #f4f4f4;
+}
+
+#job-listing {
+  background: #f4f4f4 !important;
+}
+
+.job-tab-img {
+  width: 80px;
+  height: 80px;
+}
+
+.job-client-card {}
+
+.job-client-card:active {
+  background: var(--main-color);
+}
+
+.job-client-img {
+  width: 50px;
+  height: 50px;
+}
+
+.job-item {
+  border: 1px solid transparent;
+  border-radius: 2px;
+  box-shadow: 0 0 45px rgba(0, 0, 0, 0.08);
+  transition: 0.5s;
+}
+
+.job-item:hover {
+  border-color: rgba(0, 0, 0, 0.08);
+  box-shadow: none;
+}
+
+
+footer,
+#clients {
+  background: #f4f4f4;
+}
+
+.footer .btn.btn-link::before {
+  position: relative;
+  content: "\f105";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 10px;
+}
+
+.btn.btn-social {
+  margin-right: 5px;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--light);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 2px;
+  transition: .3s
+}
+
+.btn.btn-social:hover {
+  color: var(--main-color);
+  border-color: #effdf5;
+}
+
+.footer-email-box {
+  width: 291px;
+}
+
+.about-banner-img {
+  background: linear-gradient(rgba(43, 57, 64, .5), rgba(43, 57, 64, .5)), url(carousel-2.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.contact-icon {
+  width: 45px;
+  height: 45px;
+}
+
+.contact-img {
+  /* min-height: 400px; */
+  border: 0;
+}
+
+.banner-heading-about {
+  font-weight: 700;
+}
+
+.apply-btn:hover {
+  color: #000 !important;
+  background-color: #00b074 !important;
+}
