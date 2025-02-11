@@ -44,6 +44,9 @@ JobVision aims to streamline the job search experience.  It provides a platform 
 *   **Job Seekers:**  Browse job listings, use filters to narrow down results, view detailed job descriptions, and contact employers.
 *   **Employers:**  *(If applicable)*  Post job openings, manage applications, and connect with potential candidates.
 *   **General Users:**  Learn about JobVision, contact the team, and read testimonials.
+  
+#Screenshot
+
 
 
 ## Contributing
