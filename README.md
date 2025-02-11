@@ -28,7 +28,7 @@ JobVision aims to streamline the job search experience.  It provides a platform 
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/jobvision.git](https://github.com/your-username/jobvision.git) *(Replace with your repository URL)*
+       https://anaskhan047.github.io/Job-Vision/
     ```
 
 2.  **Navigate to the project directory:**
@@ -45,9 +45,8 @@ JobVision aims to streamline the job search experience.  It provides a platform 
 *   **Employers:**  *(If applicable)*  Post job openings, manage applications, and connect with potential candidates.
 *   **General Users:**  Learn about JobVision, contact the team, and read testimonials.
 
-*(Add more specific usage instructions based on your website's functionality)*
 
 ## Contributing
 
-Contributions are welcome! Please submit a pull request with a clear description of the changes you've made.  *(Consider adding a `CONTRIBUTING.md` file with detailed guidelines)*
+Contributions are welcome! Please submit a pull request with a clear description of the changes you've made. 
 
